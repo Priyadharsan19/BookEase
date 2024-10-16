@@ -1,0 +1,86 @@
+/* frontend/src/components/Booking/BookingDetails.css */
+
+.booking-details-container {
+    display: flex;
+    justify-content: center;
+    align-items:center;
+}
+
+.left-container,
+.right-container {
+    width: 45%;
+    
+    border: 3px; /* Adjust width as needed */
+}
+
+.booking-details-heading {
+    margin-top: 20px;
+    font-size: 20px;
+    margin-bottom: 15px;
+}
+
+.booking-details-item {
+    margin-bottom: 10px;
+}
+
+.booking-details-label {
+    display: inline-block;
+    margin-top: 10px;
+    width: 120px; /* Adjust label width as needed */
+    font-weight: bold;
+}
+
+.booking-details-value {
+    display: inline-block;
+    margin-left: 10px;
+}
+
+.booking-details-input {
+    width: 60%; /* Adjust input width as needed */
+    padding: 5px;
+    margin-top: 5px;
+}
+
+.booking-details-submit {
+    width: 20%;
+    padding: 10px;
+    margin-top: 10px;
+    margin-left: 40%;
+    margin-right: auto;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.booking-details-submit:hover {
+    background-color: #0056b3;
+}
+.input-container {
+  display: flex;
+  align-items: center;
+}
+
+.input-field {
+  width:350px;
+  padding: 10px;
+  margin-top: 50px;
+  margin-right: 10px;
+}
+
+.send-button {
+  padding: 10px 20px;
+  margin-top: 10px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.send-button:hover {
+  background-color: #0056b3;
+}
+
+  
